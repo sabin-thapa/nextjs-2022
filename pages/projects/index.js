@@ -20,8 +20,8 @@ const Projects = ({ posts }) => {
       <Title title="Projects" />
       <h2> All my projects!</h2>
       {posts.map((post) => (
-        <div className={styles.project}>
-          <Link href={"/projects/" + post.id} key={post.id}>
+        <div className={styles.project} key={post.id}>
+          <Link href={"/projects/" + post.id}>
             <h2> {post.title}</h2>
           </Link>
         </div>
