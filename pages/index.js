@@ -2,7 +2,7 @@ import HomeStyles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div className={HomeStyles.container}>
-      <div className={HomeStyles.main}>
+      <div>
         <h1>This is the Homepage!</h1>
         <p>
           {" "}
