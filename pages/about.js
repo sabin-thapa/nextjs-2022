@@ -1,16 +1,22 @@
 import React from "react";
+import Head from "next/head";
 
 const about = () => {
   return (
-    <div>
-      <h1>This is the about page </h1>
-      <h3>
-        loremDeserunt mollit eiusmod in nostrud commodo occaecat eiusmod.
-        Officia do Lorem aliquip eiusmod voluptate. Cupidatat nisi deserunt
-        laboris proident ex. In laboris ullamco laborum ut amet aliquip tempor
-        dolor tempor enim commodo eiusmod cillum.
-      </h3>
-    </div>
+    <>
+      <Head>
+        <title>About | Sabin Thapa</title>
+      </Head>
+      <div>
+        <h1>This is the about page </h1>
+        <h3>
+          loremDeserunt mollit eiusmod in nostrud commodo occaecat eiusmod.
+          Officia do Lorem aliquip eiusmod voluptate. Cupidatat nisi deserunt
+          laboris proident ex. In laboris ullamco laborum ut amet aliquip tempor
+          dolor tempor enim commodo eiusmod cillum.
+        </h3>
+      </div>
+    </>
   );
 };
 
