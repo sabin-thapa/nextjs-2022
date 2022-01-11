@@ -5,7 +5,7 @@ import HomeStyles from "../styles/Home.module.css";
 
 const Layout = ({ children }) => {
   return (
-    <div className={HomeStyles.container}>
+    <div className={HomeStyles.content}>
       <Navbar />
       {children}
       <Footer />
