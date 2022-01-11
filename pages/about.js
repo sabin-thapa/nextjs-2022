@@ -1,12 +1,10 @@
 import React from "react";
-import Head from "next/head";
+import Title from "../components/Title";
 
 const about = () => {
   return (
     <>
-      <Head>
-        <title>About | Sabin Thapa</title>
-      </Head>
+      <Title title="About" />
       <div>
         <h1>This is the about page </h1>
         <h3>

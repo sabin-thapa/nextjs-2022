@@ -1,12 +1,11 @@
 import Head from "next/head";
 import React from "react";
+import Title from "../../components/Title";
 
 const Projects = () => {
   return (
     <>
-      <Head>
-        <title>Projects | Sabin Thapa</title>
-      </Head>
+      <Title title="Projects" />
       <div>
         <h2> All my projects!</h2>
       </div>
