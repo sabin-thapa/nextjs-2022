@@ -24,7 +24,6 @@ const Projects = ({ posts }) => {
           <Link href={"/projects/" + post.id} key={post.id}>
             <h2> {post.title}</h2>
           </Link>
-          <p> {post.body} </p>
         </div>
       ))}
     </>
