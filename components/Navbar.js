@@ -1,27 +1,18 @@
 import Link from "next/link";
 import React from "react";
-
+import navStyles from "../styles/Navbar.module.css";
 const Navbar = () => {
   return (
-    <nav>
-      <div className="logo">
+    <nav className={navStyles.navbar}>
+      <div className={navStyles.logo}>
         <h1> Sabin Thapa</h1>
       </div>
-      <ul>
+      <ul className={navStyles.navItems}>
         <li>
-          <Link href="/about">
-            <a>About</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/contact">
-            <a>Contact</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/projects">
-            <a>Projects</a>
-          </Link>
+          <Link href="/">Home</Link>
+          <Link href="/about">About</Link>
+          <Link href="/contact">Contact</Link>
+          <Link href="/projects">Projects</Link>
         </li>
       </ul>
     </nav>
