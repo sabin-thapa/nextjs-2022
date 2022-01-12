@@ -1,6 +1,6 @@
 import { API_URL } from "@/config/index";
 
-export const getServerSideProps = async ({ query: { slug } }) => {
+export const getStaticProps = async ({ query: { slug } }) => {
   const res = await fetch(`${API_URL}/api/projects/${slug}`);
   const events = await res.json();
 
