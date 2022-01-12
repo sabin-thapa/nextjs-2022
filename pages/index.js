@@ -7,7 +7,7 @@ export default function Home() {
       <div>
         <div>
           <h1>Sabin Thapa</h1>
-          <Image src="/sabin.jpg" height={400} width={400} />
+          {/* <Image src="/sabin.jpg" height={400} width={400} /> */}
         </div>
       </div>
     </>
