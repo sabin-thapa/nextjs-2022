@@ -1,6 +1,11 @@
 .navbar {
+  margin: 0 2%;
   display: flex;
   justify-content: space-between;
+  padding: 0 8px;
+  align-items: center;
+  height: 60px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .logo img {
@@ -20,4 +25,8 @@
 
 .navItems {
   margin-right: 10%;
+}
+.navItems a {
+  color: #000;
+  font-weight: bolder;
 }

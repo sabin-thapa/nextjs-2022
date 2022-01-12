@@ -1,10 +1,9 @@
 import Title from "../components/Title";
-import HomeStyles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <>
       <Title title="Home" />
-      <div className={HomeStyles.container}>
+      <div>
         <div>
           <h1>This is the Homepage!</h1>
           <p>
