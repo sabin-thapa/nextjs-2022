@@ -26,6 +26,12 @@ a {
   align-items: flex-end;
 }
 
+.not-found-container {
+  position: absolute;
+  left: 30%;
+  top: 30%;
+}
+
 .not-found {
   text-align: center;
 }
