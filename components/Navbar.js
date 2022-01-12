@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import navStyles from "../styles/Navbar.module.css";
+import navStyles from "@/styles/Navbar.module.css";
 const Navbar = () => {
   return (
     <nav className={navStyles.navbar}>
